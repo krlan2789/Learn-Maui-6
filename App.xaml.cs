@@ -2,7 +2,7 @@
 {
     public partial class App : Application
     {
-        public static PersonRepository PersonRepo { get; set; }
+        public static PersonRepository? PersonRepo { get; set; }
 
         public App(PersonRepository repo)
         {
